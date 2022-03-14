@@ -1,0 +1,16 @@
+management:
+  emailAccount:
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=emailAccount'
+    order: 710
+  emailAlias:
+    order: 720
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=emailAlias'
+  distributionList:
+      order: 730
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=distributionList'
+  domainAlias:
+    order: 740
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=domainAlias'
+  goWebmail:
+    order: 750
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=webmail" target="_blank'

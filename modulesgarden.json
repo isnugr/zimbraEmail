@@ -1,0 +1,14 @@
+{
+  "database":{
+    "tables":[
+        "ZimbraEmail_Commands",
+        "ZimbraEmail_Job",
+        "ZimbraEmail_JobLog",
+        "ZimbraEmail_Logger",
+        "ZimbraEmail_ModuleSettings",
+        "ZimbraEmail_product_configuration"
+
+    ]
+
+  }
+}

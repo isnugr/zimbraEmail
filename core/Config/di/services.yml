@@ -1,0 +1,5 @@
+- \ModulesGarden\Servers\ZimbraEmail\Core\Lang\Lang
+- \ModulesGarden\Servers\ZimbraEmail\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\Servers\ZimbraEmail\Core\UI\Widget\Sidebar\SidebarService
+- \ModulesGarden\Servers\ZimbraEmail\Core\Helper\WhmcsParams
+- \ModulesGarden\Servers\ZimbraEmail\Core\App\AppParamsContainer

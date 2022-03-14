@@ -1,0 +1,9 @@
+version: '2.0.0'
+systemName: 'zimbraEmail'
+name: 'zimbraEmail'
+description: 'Zimbra Email.<br>For more info visit our <a href="http://www.docs.modulesgarden.com/Zimbra_Email_For_WHMCS" style="color: #4169E1;" target="_blank">Wiki</a>.'
+clientareaName: 'Zimbra Email'
+author: '<a href="http://www.modulesgarden.com" targer="_blank">ModulesGarden</a>'
+moduleIcon: 'zimbra_email'
+clienPortSecure: 8443
+clientPort: 443

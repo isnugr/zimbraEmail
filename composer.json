@@ -1,0 +1,45 @@
+{
+    "name": "modulesgarden/zimbraemail",
+    "description": "",
+    "version": "2.0.0",
+    "type": "project",
+    "license": "EULA",
+    "homepage": "https://www.modulesgarden.com",
+    "support":
+            {
+                "email": "contact@modulesgarden.com",
+                "issues": "https://www.modulesgarden.com/customers/support",
+                "forum": "https://www.forum.modulesgarden.com/"
+            },
+    "authors": [],
+    "require":
+            {
+                "php": ">=5.5.9",
+                "piwik/ini": "1.0.6",
+                "symfony/cache": "3.4.20",
+                "mso/idna-convert" : "1.1.0",
+                "adbario/php-dot-notation" : "2.1.0",
+                "symfony/polyfill-apcu" : "1.10.0",
+                "rappasoft/laravel-helpers": "^1.0"
+            },
+    "replace": {
+        "symfony/http-foundation": "*",
+        "symfony/yaml": "*",
+        "symfony/dependency-injection": "*",
+        "symfony/polyfill-mbstring" : "*",
+        "symfony/polyfill-php70" : "*",
+        "psr/log" : "*",
+        "psr/cache" : "*",
+        "psr/simple-cache" : "*",
+        "psr/container" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ModulesGarden\\Servers\\ZimbraEmail\\Core\\": "./core",
+            "ModulesGarden\\Servers\\ZimbraEmail\\App\\": "./app"
+        },
+        "files": [
+            "./core/Helper/Functions.php"
+        ]
+    }
+}
